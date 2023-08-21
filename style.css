@@ -1,0 +1,58 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body{
+    background-color: lightblue;
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    margin-top: 120px;
+  }
+  
+  .container{
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 4%;
+    
+  
+    
+    
+  }
+  
+  .scan{
+    background-image: url("image-qr-code.png");
+    height: 230px;
+    width: 200px;
+    background-size: cover;
+    padding-left: 40px;
+    border-radius: 4%;
+    display: flex;
+    justify-content: top;
+    margin: 10px;
+    margin-top: 20px;
+  }
+  
+  .text{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px;
+    margin-left: 10px;
+  
+      
+  }
+  
+  p{
+    margin: 10px;
+    padding: 5px;
+    font-size: 15px;
+  }
+    
+  
+  
